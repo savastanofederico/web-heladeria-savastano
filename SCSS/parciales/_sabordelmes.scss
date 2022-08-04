@@ -1,0 +1,43 @@
+.titulo1_sabordelmes {
+    text-align: center;
+}
+
+.titulo2_sabordelmes {
+    text-align: center;
+}
+
+.helados {
+    display: grid;
+    height: 400px;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-areas: 
+    "opcion1 opcion2 opcion3"
+    ;
+    
+    place-content: center;
+    gap: 1rem;
+    
+}
+
+.opcion1 {
+    grid-area: opcion1;
+    width: 200px;
+    height: 200px;
+}
+
+.opcion2 {
+    grid-area: opcion2;
+    width: 200px;
+    height: 200px;
+}
+
+.opcion3 {
+    grid-area: opcion3;
+    width: 200px;
+    height: 200px;
+}
+
+.form_selecciona {
+    display: flex;
+    justify-content: center;
+}

@@ -1,394 +1,262 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 a {
-    text-decoration: none;
-}
+  text-decoration: none; }
 
-.listado {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    padding: 16px;
-    align-items: center;
-    
-}
-
-.listado__item {
-    margin: 1rem;
-}
-
-
-.main {
-    background-image: url(../imagenes/ice-cream-wall.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 1rem;
-}
-
-.titulo {
-    text-decoration: underline;
-    text-align: center;
-    margin-bottom: 1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: large;
-    font-style: oblique;
-    transform: scale(2);
-    
-}
-
-.grid__galeria {
-
-    display: grid;
-    width: 700px;
-    height: 700px;
-   
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    
-    "item1 item2 item3"
-    "item4 item5 item6"
-    "item7 item8 item9"
-    ;
-    
-    place-items: center;
-    margin-left: 23rem;
-    
-}
-
-.item1 {
-    grid-area: item1;
-    width: 200px;
-    height: 200px;
-}
-
-.item2 {
-    grid-area: item2;
-    width: 200px;
-    height: 200px;
-}
-
-.item3 {
-    grid-area: item3;
-    width: 200px;
-    height: 200px;
-}
-
-.item4 {
-    grid-area: item4;
-    width: 200px;
-    height: 200px;
-}
-
-.item5 {
-    grid-area: item5;
-    width: 200px;
-    height: 200px;
-}
-
-.item6 {
-    grid-area: item6;
-    width: 200px;
-    height: 200px;
-}
-
-.item7 {
-    grid-area: item7;
-    width: 200px;
-    height: 200px;
-}
-
-.item8 {
-    grid-area: item8;
-    width: 200px;
-    height: 200px;
-}
-
-.item9 {
-    grid-area: item9;
-    width: 200px;
-    height: 200px;
-}
-
-
-.parrafo {
-    margin-left: 2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-bottom: 3rem;
-    text-align: center;
-}
-
-.suscribirse {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.suscribirse__titulo {
-    font-size: medium;
-    color: brown;
-}
-
-.suscribirse__label {
-    margin-left: 10rem; 
-    position: absolute;
-}
-
-.suscribirse__button {
-    border-bottom: 1cm;
-    margin-left: 2rem;
-    
-}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    margin: 2rem 1rem;
-    align-items: center;
-}
-
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 1rem;
+  align-items: center; }
 
 .span_logo {
-    font-size: small;
-    
-}
+  font-size: small; }
 
 .span_redes {
-    font-size: small;
-    
-}
+  font-size: small; }
 
+.main {
+  background-image: url(../imagenes/ice-cream-wall.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 1rem; }
+
+.titulo {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-style: oblique;
+  transform: scale(2); }
+
+.grid__galeria {
+  display: grid;
+  width: 700px;
+  height: 700px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "item1 item2 item3" "item4 item5 item6" "item7 item8 item9";
+  place-items: center;
+  margin-left: 23rem; }
+
+.item1 {
+  grid-area: item1;
+  width: 200px;
+  height: 200px; }
+
+.item2 {
+  grid-area: item2;
+  width: 200px;
+  height: 200px; }
+
+.item3 {
+  grid-area: item3;
+  width: 200px;
+  height: 200px; }
+
+.item4 {
+  grid-area: item4;
+  width: 200px;
+  height: 200px; }
+
+.item5 {
+  grid-area: item5;
+  width: 200px;
+  height: 200px; }
+
+.item6 {
+  grid-area: item6;
+  width: 200px;
+  height: 200px; }
+
+.item7 {
+  grid-area: item7;
+  width: 200px;
+  height: 200px; }
+
+.item8 {
+  grid-area: item8;
+  width: 200px;
+  height: 200px; }
+
+.item9 {
+  grid-area: item9;
+  width: 200px;
+  height: 200px; }
+
+.parrafo {
+  margin-left: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 3rem;
+  text-align: center; }
+
+.suscribirse {
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.suscribirse__titulo {
+  font-size: medium;
+  color: brown; }
+
+.suscribirse__label {
+  margin-left: 10rem;
+  position: absolute; }
+
+.suscribirse__button {
+  border-bottom: 1cm;
+  margin-left: 2rem; }
 
 .section_productos {
-    display: flex;
-    margin: 2rem;
-    margin-left: 4rem;
-}
+  display: flex;
+  margin: 2rem;
+  margin-left: 4rem; }
 
 .titulo_productos {
-    margin-left: 8rem;
-}
-
+  margin-left: 8rem; }
 
 .titulo1_sabordelmes {
-    text-align: center;
-}
+  text-align: center; }
 
 .titulo2_sabordelmes {
-    text-align: center;
-}
+  text-align: center; }
 
 .helados {
-    display: grid;
-    height: 400px;
-    grid-template-columns: repeat(3, 200px);
-    grid-template-areas: 
-    "opcion1 opcion2 opcion3"
-    ;
-    
-    place-content: center;
-    gap: 1rem;
-    
-}
+  display: grid;
+  height: 400px;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-areas: "opcion1 opcion2 opcion3";
+  place-content: center;
+  gap: 1rem; }
 
 .opcion1 {
-    grid-area: opcion1;
-    width: 200px;
-    height: 200px;
-}
+  grid-area: opcion1;
+  width: 200px;
+  height: 200px; }
 
 .opcion2 {
-    grid-area: opcion2;
-    width: 200px;
-    height: 200px;
-}
+  grid-area: opcion2;
+  width: 200px;
+  height: 200px; }
 
 .opcion3 {
-    grid-area: opcion3;
-    width: 200px;
-    height: 200px;
-}
+  grid-area: opcion3;
+  width: 200px;
+  height: 200px; }
 
 .form_selecciona {
-    display: flex;
-    justify-content: center;
-}
+  display: flex;
+  justify-content: center; }
 
 .section_locales {
-
-    display: flex;
-    margin: 3rem;
-}
+  display: flex;
+  margin: 3rem; }
 
 .local_belgrano {
-    margin-left: 20rem;
-}
+  margin-left: 20rem; }
 
 .local_palermo {
-    margin-left: 5rem;
-}
+  margin-left: 5rem; }
 
 .tabla {
-    margin: 1rem;
-    margin-left: 35rem;
-    border-color: black;
-    border-style:dashed;
-}
-
+  margin: 1rem;
+  margin-left: 35rem;
+  border-color: black;
+  border-style: dashed; }
 
 .comentarios {
-    margin-top: 1rem;
-}
+  margin-top: 1rem; }
 
-@media screen and (max-width:480px) {
-    .listado {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        padding: 16px;
-        align-items: center;
-        
-    }
-    
-    .grid__galeria {
+@media screen and (max-width: 480px) {
+  .listado {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: center; }
+  .grid__galeria {
+    display: grid;
+    width: 450px;
+    height: 450px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "item1 item2 item3" "item4 item5 item6" "item7 item8 item9";
+    margin-left: 0px; }
+  .item1 {
+    grid-area: item1;
+    width: 100px;
+    height: 100px; }
+  .item2 {
+    grid-area: item2;
+    width: 100px;
+    height: 100px; }
+  .item3 {
+    grid-area: item3;
+    width: 100px;
+    height: 100px; }
+  .item4 {
+    grid-area: item4;
+    width: 100px;
+    height: 100px; }
+  .item5 {
+    grid-area: item5;
+    width: 100px;
+    height: 100px; }
+  .item6 {
+    grid-area: item6;
+    width: 100px;
+    height: 100px; }
+  .item7 {
+    grid-area: item7;
+    width: 100px;
+    height: 100px; }
+  .item8 {
+    grid-area: item8;
+    width: 100px;
+    height: 100px; }
+  .item9 {
+    grid-area: item9;
+    width: 100px;
+    height: 100px; }
+  .footer {
+    display: flex;
+    display: column; }
+  .span_redes {
+    display: none; }
+  .span_logo {
+    display: none; }
+  .helados {
+    display: grid;
+    width: 450px;
+    height: 300px;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-areas: "opcion1 opcion2 opcion3";
+    place-content: center;
+    gap: 0px;
+    margin-right: 0px;
+    margin-left: 2rem; }
+  .opcion1 {
+    grid-area: opcion1;
+    width: 100px;
+    height: 100px; }
+  .opcion2 {
+    grid-area: opcion2;
+    width: 100px;
+    height: 100px; }
+  .opcion3 {
+    grid-area: opcion3;
+    width: 100px;
+    height: 100px; } }
 
-        display: grid;
-        width: 450px;
-        height: 450px;
-       
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: 
-        
-        "item1 item2 item3"
-        "item4 item5 item6"
-        "item7 item8 item9"
-        ;
-
-        margin-left: 0px;
-
-    }
-    
-    .item1 {
-        grid-area: item1;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .item2 {
-        grid-area: item2;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .item3 {
-        grid-area: item3;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .item4 {
-        grid-area: item4;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .item5 {
-        grid-area: item5;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .item6 {
-        grid-area: item6;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .item7 {
-        grid-area: item7;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .item8 {
-        grid-area: item8;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .item9 {
-        grid-area: item9;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .footer {
-        display: flex;
-        display: column;
-    }
-
-    .span_redes {
-        display: none;
-    }
-
-    .span_logo {
-        display: none;
-    }
-
-    .helados {
-        display: grid;
-        width: 450px;
-        height: 300px;
-        grid-template-columns: repeat(3, 150px);
-        grid-template-areas: 
-        "opcion1 opcion2 opcion3"
-        ;
-        
-        place-content: center;
-        gap: 0px;
-        margin-right: 0px;
-        margin-left: 2rem;
-        
-    }
-    
-    .opcion1 {
-        grid-area: opcion1;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .opcion2 {
-        grid-area: opcion2;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .opcion3 {
-        grid-area: opcion3;
-        width: 100px;
-        height: 100px;
-    }
- 
-}
-
-@media screen and (max-width:768px) {
-    .grid__galeria {
-
-        margin-left: 1rem;
-
-    }
-
-
-}
-
+@media screen and (max-width: 768px) {
+  .grid__galeria {
+    margin-left: 1rem; } }
