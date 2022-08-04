@@ -101,20 +101,19 @@
 .suscribirse {
     text-align: center;
     margin-bottom: 2rem;
-}
-
-.suscribirse__titulo {
-    font-size: medium;
-    color: brown;
-}
-
-.suscribirse__label {
-    margin-left: 10rem; 
-    position: absolute;
-}
-
-.suscribirse__button {
-    border-bottom: 1cm;
-    margin-left: 2rem;
     
+    &__titulo {
+        font-size: medium;
+        color: brown;
+    }
+    &__label {
+        margin-left: 10rem; 
+        position: absolute;
+    }
+    &__button {
+        border-bottom: 1cm;
+        margin-left: 2rem;
+        
+    }
 }
+
