@@ -1,0 +1,41 @@
+.main {
+    margin-top: 5rem;
+}
+
+
+.titulo {
+    
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    transform: scale(2);
+    
+}
+
+
+.parrafo {
+    margin-left: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.suscribirse {
+    text-align: center;
+    margin-bottom: 2rem;
+    
+    &__titulo {
+        font-size: medium;
+        color: brown;
+    }
+    &__label {
+        margin-left: 10rem; 
+        position: absolute;
+    }
+    &__button {
+        border-bottom: 1cm;
+        margin-left: 2rem;
+        
+    }
+}
+

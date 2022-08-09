@@ -1,0 +1,64 @@
+@media screen and (max-width:480px) {
+
+    .header {
+        margin-top: 2rem;
+    }
+    
+    .footer {
+        display: flex;
+        display: column;
+    }
+
+    .span_redes {
+        display: none;
+    }
+
+    .span_logo {
+        display: none;
+    }
+
+    .helados {
+        display: grid;
+        width: 450px;
+        height: 300px;
+        grid-template-columns: repeat(3, 150px);
+        grid-template-areas: 
+        "opcion1 opcion2 opcion3"
+        ;
+        
+        place-content: center;
+        gap: 0px;
+        margin-right: 0px;
+        margin-left: 2rem;
+        
+    }
+    
+    .opcion1 {
+        grid-area: opcion1;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .opcion2 {
+        grid-area: opcion2;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .opcion3 {
+        grid-area: opcion3;
+        width: 100px;
+        height: 100px;
+    }
+ 
+}
+
+@media screen and (max-width:885px) {
+
+    .header {
+        margin-top: 2rem;
+    }
+
+
+
+}
