@@ -40,25 +40,30 @@
   </header>
     
 
-    <main class="main">
+    <main class="main main__modificador">
         
-        <section class="section_contacto">
-                <h1> Ponte en contacto con nosotros! </h1>
-                <form>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
-        
-                    <div>
-                        <button> Enviar </button>
-                    </div>
-                </form>
-        </section>
+      <div class="d-flex justify-content-center">
+          <section class="section_contacto">
+            <h1> Ponte en contacto con nosotros! </h1>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <div class="col-sm-5">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <div class="col-sm-10">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+            </form>
+
+            <div>
+              <button class="btn btn-primary button__modificador" type="submit">Enviar</button>
+            </div>
+
+          </section>
+       </div>
     </main>
 
     
