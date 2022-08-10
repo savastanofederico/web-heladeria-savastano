@@ -7,3 +7,27 @@
 .titulo_productos {
     margin-left: 8rem;
 }
+
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.productoSmoothie {
+    @include sizes(300px,300px);
+    transform: scale(0.9);
+    margin-left: 2rem;
+}
+
+.productoHelado {
+    @include sizes (250px, 250px);
+    transform: scale(0.95);
+    margin-left: 3rem;
+}
+   
+
+.productoMilkshake {
+    @include sizes (350px, 350px);
+    transform: scale(0.8);
+    margin-left: 1rem;
+}

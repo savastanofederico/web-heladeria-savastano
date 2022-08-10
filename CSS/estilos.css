@@ -67,6 +67,24 @@ a {
 .titulo_productos {
   margin-left: 8rem; }
 
+.productoSmoothie {
+  width: 300px;
+  height: 300px;
+  transform: scale(0.9);
+  margin-left: 2rem; }
+
+.productoHelado {
+  width: 250px;
+  height: 250px;
+  transform: scale(0.95);
+  margin-left: 3rem; }
+
+.productoMilkshake {
+  width: 350px;
+  height: 350px;
+  transform: scale(0.8);
+  margin-left: 1rem; }
+
 .titulo1_sabordelmes {
   text-align: center; }
 
@@ -135,6 +153,10 @@ a {
     display: none; }
   .span_logo {
     display: none; }
+  .section_productos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem; }
   .helados {
     display: grid;
     width: 450px;
@@ -156,8 +178,18 @@ a {
   .opcion3 {
     grid-area: opcion3;
     width: 100px;
-    height: 100px; } }
-
-@media screen and (max-width: 885px) {
-  .header {
-    margin-top: 2rem; } }
+    height: 100px; }
+  .section_locales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px; }
+  .local_belgrano {
+    margin-left: 5rem;
+    margin-top: 3rem; }
+  .horarios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 30rem; } }
