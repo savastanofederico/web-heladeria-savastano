@@ -24,40 +24,6 @@
 
     }
 
-    .helados {
-        display: grid;
-        width: 450px;
-        height: 300px;
-        grid-template-columns: repeat(3, 150px);
-        grid-template-areas: 
-        "opcion1 opcion2 opcion3"
-        ;
-        
-        place-content: center;
-        gap: 0px;
-        margin-right: 0px;
-        margin-left: 2rem;
-        
-    }
-    
-    .opcion1 {
-        grid-area: opcion1;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .opcion2 {
-        grid-area: opcion2;
-        width: 100px;
-        height: 100px;
-    }
-    
-    .opcion3 {
-        grid-area: opcion3;
-        width: 100px;
-        height: 100px;
-    }
-
     .section_locales {
         display: flex;
         flex-direction: column;
