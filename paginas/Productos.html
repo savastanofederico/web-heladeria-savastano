@@ -19,10 +19,11 @@
   <header class="header">
     <div class="div_header_titulo">
       <h1 class="h1_firenze"> FIRENZE </h1>
+      <hr class="hr_header">
       <h2 class="h2_heladeria"> Heladería </h2>
     </div>
 
-      <nav class="navbar navbar-expand-lg" style="background-color: rgba(10,212,161,1) 0%;">
+      <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: rgba(10,212,161,1) 0%;">
           <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,34 +51,58 @@
 
 
     <main class="main">
+
+      <section class="delivery">
+        <div class="sammy_div">
+          <img class="sammy" src="../imagenes/sammy-delivery.gif" alt="delivery">
+        </div>
+
+        <div class="pedido pedido_productos">
+          <span> Haz tu pedido en nuestra app:</span>
+
+          <div class="apple">
+            <a href="https://www.apple.com/la/app-store/" target="_blank">
+              <img class="apple_media" src="../imagenes/appstore.png" alt="apple">
+            </a>
+          </div>
+        
+          <div class="google">
+            <a href="https://play.google.com/store/apps" target="_blank">
+              <img class="google_media" src="../imagenes/googleplay.png" alt="android">
+            </a>
+         </div>   
+          
+        </div>
+        
+      </section>
         
         <section class="section_productos">
 
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-              <div class="card text-center h-100">
+              <div class="card border-primary text-center h-100">
                 <img src="../imagenes/smoothies.jpeg" class="card-img-top" alt="smoothie">
                 <div class="card-body">
                   <h5 class="card-title">Smoothies</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Nuestros smoothies con trocitos y pulpa de fruta son excelentes para un día de calor. Prueba los sabores de arándanos, frutilla y durazno. Te van a encantar!</p>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card text-center h-100">
+              <div class="card border-primary text-center h-100">
                 <img src="../imagenes/helado.jpeg" class="card-img-top" alt="helado">
                 <div class="card-body">
                   <h5 class="card-title">Helados</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Contamos con una receta exquisita para todos los sabores. Puedes elegir entre los clásicos, especiales o el sabor del mes.</p>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card text-center h-100">
+              <div class="card border-primary text-center h-100">
                 <img src="../imagenes/milkshake.jpeg" class="card-img-top" alt="Milkshake">
                 <div class="card-body">
                   <h5 class="card-title">Milkshakes</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text">Tenemos milkshakes a base de leche y helado. Son ideales para acompañar con una torta. Sabores: chocolate, frutilla y crema americana. </p>
                 </div>
               </div>
             </div>
@@ -90,27 +115,27 @@
     <hr>
 
     <footer class="footer">
-        <div class="footer__elemento1">
-            <img src="../imagenes/icono-firenze.jpeg" alt="logo firenze" width="100" height="100" class="logo_footer">
-            <span class="span_logo"> Todos los derechos reservados </span>
-        </div>
+      <div class="footer__elemento1">
+          <img src="../imagenes/icono-firenze.jpeg" alt="logo firenze" class="logo_footer">
+          <span class="span_logo"> Todos los derechos reservados </span>
+      </div>
 
-        <div class="footer_elemento2">
-            <span class="span_redes"> Síguenos en </span>
+      <div class="footer_elemento2">
+          <span class="span_redes"> Síguenos en </span>
 
-            <a href="https://wwww.facebook.com" target="_blank">
-            <img src="../imagenes/facebook-icono.jpeg" alt="facebook icono" width="50" height="50">
-            </a>
+          <a href="https://wwww.facebook.com" target="_blank">
+          <img src="../imagenes/facebook-icono.jpeg" alt="facebook icono" class="icono">
+          </a>
 
-            <a href="https://www.instagram.com" target="_blank"> 
-            <img src="../imagenes/instagram-icono.jpg" alt="instagram icono" width="50" height="50">
-            </a>
+          <a href="https://www.instagram.com" target="_blank"> 
+          <img src="../imagenes/instagram-icono.jpg" alt="instagram icono" class="icono">
+          </a>
 
-            <a href="https://www.twitter.com" target="_blank"> 
-            <img src="../imagenes/twitter-icono.png" alt="twitter icono" width="50" height="50">
-            </a>
-        </div>
-    </footer>
+          <a href="https://www.twitter.com" target="_blank"> 
+          <img src="../imagenes/twitter-icono.png" alt="twitter icono" class="icono">
+          </a>
+      </div>
+  </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     
