@@ -19,10 +19,11 @@
   <header class="header">
     <div class="div_header_titulo">
       <h1 class="h1_firenze"> FIRENZE </h1>
+      <hr class="hr_header">
       <h2 class="h2_heladeria"> Heladería </h2>
     </div>
 
-        <nav class="navbar navbar-expand-lg" style="background-color: rgba(10,212,161,1) 0%;">
+        <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: rgba(10,212,161,1) 0%;">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">Inicio</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,39 +51,66 @@
 
     
     <main class="main">
-        
-        <section>
 
+      <section class="main_top">
+
+        <div>
+          <img class="best_choice" src="./imagenes/best_choice.png" alt="best">
+        </div>
+        
+  
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes-historia-modificadas/1.jpg" class="d-block w-100" alt="1">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes-historia-modificadas/2.jpeg" class="d-block w-100" alt="2">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes-historia-modificadas/3.jpeg" class="d-block w-100" alt="3">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes-historia-modificadas/4.jpeg" class="d-block w-100" alt="4">
+              </div>
+            </div>
+          </div>
+          
+    
+            <div class="pedido">
+              <span> Haz tu pedido en nuestra app:</span>
+
+              <div class="apple">
+                <a href="https://www.apple.com/la/app-store/" target="_blank">
+                  <img class="apple_media" src="./imagenes/appstore.png" alt="apple">
+                </a>
+              </div>
+            
+              <div class="google">
+                <a href="https://play.google.com/store/apps" target="_blank">
+                  <img class="google_media" src="./imagenes/googleplay.png" alt="android">
+                </a>
+             </div>   
+              
+            </div>
+    
+      </section>
+
+      
+
+        
+        <section class="flex_inicio">
+            
             <div>
                 <h2 class="titulo_index"> Nuestra historia </h2>
             </div>
-              
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./imagenes-historia-modificadas/Unknown1.jpeg" class="d-block w-100" alt="1">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./imagenes-historia-modificadas/Unknown3.jpeg" class="d-block w-100" alt="3">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./imagenes-historia-modificadas/Unknown4.webp" class="d-block w-100" alt="4">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./imagenes-historia-modificadas/Unknown6.jpeg" class="d-block w-100" alt="6">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./imagenes-historia-modificadas/Unknown7.jpeg" class="d-block w-100" alt="7">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./imagenes-historia-modificadas/Unknown8.jpeg" class="d-block w-100" alt="8">
-                  </div>
-                </div>
-              </div>
-            
 
             <div>
                 <p class="parrafo"> Nuestros comienzos se remontan hace 120 años en la bella ciudad de Florencia (Italia), donde es originaria la primera sucursal de Heladeria Firenze</p>
+            </div>
+
+            <div>
+              <img class="marinero" src="./imagenes/sammy-searching.gif" alt="marinero">
             </div>
 
         </section>   
@@ -93,7 +121,7 @@
                     <h3 class="suscribirse__titulo"> Sucribirse a nuestras ofertas</h3>
                     <label for="email" class="suscribirse__label"></label>
                     <input type="email" id="emial" name="email" placeholder="Ingrese su correo">
-                    <button class="suscribirse__button"> Suscribirse </button>
+                    <button class="btn btn-primary" type="submit">Enviar</button>
                 </form>
             </div>
         </section>
@@ -103,7 +131,7 @@
 
     <footer class="footer">
         <div class="footer__elemento1">
-            <img src="./imagenes/icono-firenze.jpeg" alt="logo firenze" width="100" height="100" class="logo_footer">
+            <img src="./imagenes/icono-firenze.jpeg" alt="logo firenze" class="logo_footer">
             <span class="span_logo"> Todos los derechos reservados </span>
         </div>
 
@@ -111,15 +139,15 @@
             <span class="span_redes"> Síguenos en </span>
 
             <a href="https://wwww.facebook.com" target="_blank">
-            <img src="./imagenes/facebook-icono.jpeg" alt="facebook icono" width="50" height="50">
+            <img src="./imagenes/facebook-icono.jpeg" alt="facebook icono" class="icono">
             </a>
 
             <a href="https://www.instagram.com" target="_blank"> 
-            <img src="./imagenes/instagram-icono.jpg" alt="instagram icono" width="50" height="50">
+            <img src="./imagenes/instagram-icono.jpg" alt="instagram icono" class="icono">
             </a>
 
             <a href="https://www.twitter.com" target="_blank"> 
-            <img src="./imagenes/twitter-icono.png" alt="twitter icono" width="50" height="50">
+            <img src="./imagenes/twitter-icono.png" alt="twitter icono" class="icono">
             </a>
         </div>
     </footer>

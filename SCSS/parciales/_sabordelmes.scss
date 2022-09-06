@@ -1,43 +1,53 @@
-.titulo1_sabordelmes {
-    text-align: center;
+.titulo_sabordelmes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 840px;
+    height: 250px;
 }
 
-.titulo2_sabordelmes {
-    text-align: center;
-}
-
-.helados {
-    display: grid;
-    height: 400px;
-    grid-template-columns: repeat(3, 200px);
-    grid-template-areas: 
-    "opcion1 opcion2 opcion3"
-    ;
-    
-    place-content: center;
-    gap: 1rem;
+.titulo_sabordelmes_estilo {
+    width:350px;
+    padding:20px;
+    border:3px solid rgb(0, 0, 0);
+    background-color:mediumaquamarine;
     
 }
 
-.opcion1 {
-    grid-area: opcion1;
-    width: 200px;
-    height: 200px;
-}
-
-.opcion2 {
-    grid-area: opcion2;
-    width: 200px;
-    height: 200px;
-}
-
-.opcion3 {
-    grid-area: opcion3;
-    width: 200px;
-    height: 200px;
+.pedido_sabordelmes {
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
 }
 
 .form_selecciona {
     display: flex;
+    align-items: center;
     justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.select {
+    margin-left: 5px;
+}
+
+.btn {
+    margin-left: 5px;
+}
+
+.imagen_sabordelmes {
+    width: 450px;
+    height: 200px;
+    margin-top: 2rem;
+    
+}
+
+.card-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
 }

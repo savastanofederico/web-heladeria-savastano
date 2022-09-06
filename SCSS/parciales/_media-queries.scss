@@ -1,14 +1,145 @@
-@media screen and (max-width:480px) {
+@media screen and (max-width: 768px) {
 
-    .header {
-        margin-top: 2rem;
+    .div_header_titulo {
+        margin-right: 8rem;
     }
     
-    .footer {
-        display: flex;
-        display: column;
+    .best_choice {
+        width: 100px;
+        height: 80px;
+
     }
 
+    .carousel, .carousel-inner {
+        width: 400px;
+        height: 320px;
+        border-radius: 10px;
+        margin-left: 1rem;
+    }
+
+    .pedido {
+        text-align: center;
+        margin-left: 3rem;
+        
+    }
+
+    .apple_media {
+        width: 100px;
+        height: 30px;
+    }
+
+    .google_media {
+        width: 100px;
+        height: 30px;
+    }
+
+    .marinero {
+        width: 250px;
+        height: 340px;
+    }
+
+    .sammy_div {
+        margin-right: 4rem;
+    }
+
+    .sammy {
+        width: 200px;
+        height: 200px;
+    }
+
+    .pedido_sabordelmes {
+        padding-left: 2rem;
+    }
+
+    .titulo_sabordelmes {
+        width: 400px;
+        font-size: medium;
+        text-align: center;
+        padding: 5px;
+        margin-right: 0rem;
+    }
+
+    .div_locales1 {
+        margin-right: 1rem;
+    }
+
+    .div_locales2 {
+        margin-left: 1rem;
+    }
+
+    .local_palermo {
+        width: 350px;
+        height: 300px;
+        
+    }
+    
+    .local_belgrano {
+        width: 350px;
+        height: 300px;
+         
+    }
+
+    .imagen_contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+
+    .div_header_titulo {
+        padding-left: 2rem;
+    }
+
+    .main {
+        padding: 1rem ;
+    }
+
+    .best_choice {
+        width: 80px;
+        height: 50px;
+
+    }
+
+    .carousel, .carousel-inner {
+        width: 320px;
+        height: 240x;
+        border-radius: 10px;
+        margin-right: 1.2rem;
+        margin-left: 0.6rem;
+
+    }
+
+    .pedido {
+        text-align: center;
+        margin-left: 0.5rem;
+        padding-right: 1rem;
+
+    }
+
+    .titulo_index {
+    
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        margin: 2rem;
+    }
+
+    .marinero {
+        width: 200px;
+        height: 280px;
+    }
+    
     .span_redes {
         display: none;
     }
@@ -20,26 +151,40 @@
     .section_productos{
         display: flex;
         flex-direction: column;
-        margin-left: 1rem;
-
     }
+
+    .pedido_locales {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .titulo_locales {
+        width: 400px;
+        text-align: center;
+        text-decoration: underline;
+        font-size: larger;
+        padding-left: 1rem;
+    }
+    
 
     .section_locales {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: 0px;
     }
+
     .local_belgrano {
-        margin-left: 5rem;
         margin-top: 3rem;
     }
 
-    .horarios {
+    .imagen_contacto {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
-        margin-right: 30rem;
+        width: 200px;
+        height: 200px;
     }
 }
